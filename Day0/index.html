@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JS</title>
+</head>
+
+<body style="background-color: black; color: white;">
+    <!-- using black and white since i like the dark theme -->
+    Hi User,
+    <p>Lets learn JS fundamentals</p>
+    <hr>
+    <!-- inline JS -->
+    <button onclick="alert('Hi Js Folks')">Inline JS Alert</button>
+    <hr>
+    <!-- Internal JS -->
+    <button class="btn">Internal click Me</button>
+    <button class="btn">Internal click Me</button>
+    <button class="btn">Internal click Me</button>
+
+    <hr>
+    <!-- External JS -->
+    <button class="btnEx">External JS Click</button>
+    <button class="btnEx">External JS Click</button>
+    <button class="btnEx">External JS Click</button>
+    <!-- Place script at lowest always for rendering of html -->
+    <script>
+        document.querySelectorAll('.btn').forEach((item) => {
+            item.addEventListener('click', () => {
+                alert('Hi From Internal JS')
+            })
+        })
+    </script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
