@@ -1,1 +1,9 @@
 Link: https://www.youtube.com/watch?v=2Ji-clqUYnA&list=PL4EoTTaCpDdxRiE1izJp1eelCHAZ0tlcd&index=4&t=59s&ab_channel=CodingAddict
+
+
+SECTION: Day 1
+Explaining how to use JS in 3 ways
+    . Internal
+    . Inline
+    . External 
+!SECTION: Day 1
