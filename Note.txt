@@ -23,3 +23,10 @@ implicit type conversion
 Arrays and more
 
 !SECTION - Day 2 - 4:11:37
+
+
+SECTION - Day 3
+
+methods and properties
+
+!SECTION - Day 3 - 4:47
