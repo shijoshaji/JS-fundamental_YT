@@ -17,3 +17,9 @@ SECTION - Day 1
 
 //Numbers
 !SECTION - Day 1
+
+SECTION - Day 2
+implicit type conversion
+Arrays and more
+
+!SECTION - Day 2 - 4:11:37
