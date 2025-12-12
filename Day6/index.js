@@ -72,3 +72,22 @@ const total = people.reduce(function (acc, cur) {
 }, 0);
 
 console.log('total', total);
+
+// date
+
+const date = new Date();
+console.log(date);
+console.log(date.getDate());
+console.log(date.getDay());
+console.log(date.getMonth());
+console.log(date.getFullYear());
+console.log(date.getHours());
+console.log(date.getMinutes());
+
+// above we get index so better way is create a list and get value based on index
+
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+console.log(`month: ${months[date.getMonth()]}`);
+console.log(`day: ${days[date.getDay()]}`);
